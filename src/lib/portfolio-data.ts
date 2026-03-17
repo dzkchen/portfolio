@@ -55,7 +55,7 @@ export const projects = [
 	{
 		name: 'PokePath TD Edit',
 		description:
-			'QOL improvements of a pokemon tower defense game (electron game).',
+			'QOL improvements of a pokemon tower defense game.',
 		tech: ['Electron'],
 		repo: 'https://github.com/dzkchen/pokepath-td-edit',
 		image: pokepathImage
@@ -81,7 +81,7 @@ export const projects = [
 	{
 		name: 'Ground Work',
 		description:
-			'Hack Canada Project 2026: A Blockchain solution for your FHSA. A decentralized application (dApp) designed to incentivize users to actively contribute to their (FHSA). By leveraging the speed and low fees of the Solana blockchain, users stake USDC in a shared pool alongside a group of others.',
+			'Hack Canada Project 2026: A Blockchain solution for your FHSA. A decentralized application (dApp) designed to incentivize users to actively contribute to their FHSA. By leveraging the speed and low fees of the Solana blockchain, users stake USDC in a shared pool alongside a group of others.',
 		tech: ['Firebase', 'Rust', 'Solana', 'Next.js', 'Plaid API'],
 		repo: 'https://github.com/dzkchen/groundwork',
 		image: groundworkImage,
