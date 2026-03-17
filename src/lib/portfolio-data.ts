@@ -1,0 +1,98 @@
+import bgOne from '$lib/assets/bg_one.jpeg';
+import bgTwo from '$lib/assets/bg_two.jpeg';
+import bgThree from '$lib/assets/bg_three.jpeg';
+import gwlLogo from '$lib/assets/GWL_logo.png';
+import mpsLogo from '$lib/assets/MPS_Logo.png';
+import sacLogo from '$lib/assets/SAC_logo.png';
+import decaLogo from '$lib/assets/DECA_logo.jpeg';
+import tuckshopLogo from '$lib/assets/tuckshop_logo.png';
+import knxLogo from '$lib/assets/KNX_logo.png';
+import pokepathImage from '$lib/assets/pokepath_image.jpg';
+import jfProfileImage from '$lib/assets/project_jf_profile.png';
+import sacImage from '$lib/assets/project_sac.png';
+import groundworkImage from '$lib/assets/groundwork_image.png';
+import portfolioImage from '$lib/assets/portfolio_image.png';
+import resumePdf from '$lib/assets/David_Chen_resume.pdf';
+
+export { bgOne, bgTwo, bgThree };
+
+export const typewriterText = 'Hey There!';
+export const PAUSE_MS = 2500;
+
+export const navLinks = [
+	{ label: 'Home', href: '#home' },
+	{ label: 'Experience', href: '#experience' },
+	{ label: 'Projects', href: '#projects' },
+	{ label: 'Resume', href: resumePdf, external: true }
+];
+
+export const professional = [
+	{
+		title: 'Freight Forwarder Internship',
+		org: 'Great Worldwide Logistics',
+		when: 'Summer 2025',
+		logo: gwlLogo
+	},
+	{ title: 'Piano Tutor', org: null, when: '2023 - present', logo: mpsLogo }
+];
+
+export const extracurriculars = [
+	{
+		title: 'Student Council VP',
+		desc: 'For student body of 1700+, managing events with over 400 attendees + over $25k+ in cash flow',
+		logo: sacLogo
+	},
+	{ title: 'DECA', desc: '3x award winner', logo: decaLogo },
+	{
+		title: 'Tuck Shop',
+		desc: 'Student-led lunch purchasing program, managing inventory across 30+ products + generated ~200% ROI for the school',
+		logo: tuckshopLogo
+	},
+	{ title: 'KNX Senior Association', desc: 'English tutor for senior immigrants', logo: knxLogo }
+];
+
+export const projects = [
+	{
+		name: 'PokePath TD Edit',
+		description:
+			'QOL improvements of a pokemon tower defense game (electron game).',
+		tech: ['Electron'],
+		repo: 'https://github.com/dzkchen/pokepath-td-edit',
+		image: pokepathImage
+	},
+	{
+		name: 'JF 26 Seniors',
+		description:
+			'Graduating class profile. A survey form to collect data about our g12 class to be visualized through chart.js, form collection through zod, auth using firebase, backend firestore.',
+		tech: ['Next.js', 'Tailwind CSS', 'Firebase', 'motion.dev'],
+		repo: 'https://github.com/dzkchen/jf-26-seniors',
+		image: jfProfileImage,
+		imagePosition: 'center' as const
+	},
+	{
+		name: 'John Fraser SAC',
+		description:
+			'Maintaining website by updating data constants and updating events, and refactoring code.',
+		tech: ['Next.js', 'GSAP', 'Tailwind CSS'],
+		repo: 'https://github.com/JohnfraserSAC/johnfrasersac',
+		url: 'https://www.johnfrasersac.com/',
+		image: sacImage
+	},
+	{
+		name: 'Ground Work',
+		description:
+			'Hack Canada Project 2026: A Blockchain solution for your FHSA. A decentralized application (dApp) designed to incentivize users to actively contribute to their First Home Savings Account (FHSA). By leveraging the speed and low fees of the Solana blockchain, users stake USDC in a shared pool alongside a group of peers.',
+		tech: ['Firebase', 'Rust', 'Solana', 'Next.js', 'Plaid API'],
+		repo: 'https://github.com/dzkchen/groundwork',
+		image: groundworkImage,
+		imagePosition: 'center' as const
+	},
+	{
+		name: 'Portfolio',
+		description:
+			'You\'re looking at it! A single-page portfolio built with a mobile-first design principles.',
+		tech: ['SvelteKit', 'Svelte 5', 'Tailwind CSS'],
+		repo: 'https://github.com/dzkchen/portfolio',
+		image: portfolioImage
+	}
+];
