@@ -76,10 +76,10 @@
 					></span
 					>{/if}
 				<br />
-				I'm David and graduating high school this year!
+				I'm David and I'm graduating high school this year!
 			</p>
 			<p class="mt-4 text-base md:text-lg text-white/95 leading-relaxed">
-				I'm interested in finance + SWE. Currently learning primarily web dev but want to
+				I'm interested in finance + SWE. Currently learning web dev but want to
 				expand into game dev and AI/ML at some point soon. By the way, I took all these bg photos!
 			</p>
 		</div>

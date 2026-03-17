@@ -38,13 +38,13 @@ export const professional = [
 
 export const extracurriculars = [
 	{
-		title: 'Student Council | VP',
+		title: 'Student Council | Vice President',
 		desc: '',
 		logo: sacLogo
 	},
 	{ title: 'DECA | Competitor', desc: '3x award winner', logo: decaLogo },
 	{
-		title: 'Tuck Shop | President',
+		title: 'Tuck Shop | Founder & President',
 		desc: '',
 		logo: tuckshopLogo
 	},
