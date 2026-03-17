@@ -108,9 +108,7 @@
 						</div>
 						<div>
 							<p class="font-semibold">
-								{item.title}{#if item.org}
-									<span class="font-normal text-white/90"> @ {item.org}</span>
-								{/if}
+								{item.title}{#if item.org}<span class="font-semibold text-white/90">{' '}@ {item.org}</span>{/if}
 							</p>
 							<p class="text-sm text-white/80 mt-0.5">{item.when}</p>
 						</div>
@@ -121,13 +119,15 @@
 			<h3 class="text-lg font-semibold text-white/95 mb-4">Extracurriculars</h3>
 			<ul class="space-y-5">
 				{#each extracurriculars as item}
-					<li class="flex gap-4 items-start">
+					<li class="flex gap-4 items-center">
 						<div class="shrink-0 w-12 h-12 rounded-lg overflow-hidden" aria-hidden="true">
 							<img src={item.logo} alt="" class="w-12 h-12 object-contain" />
 						</div>
 						<div>
 							<p class="font-semibold">{item.title}</p>
-							<p class="text-sm text-white/80 mt-0.5">{item.desc}</p>
+							{#if item.desc}
+								<p class="text-sm text-white/80 mt-0.5">{item.desc}</p>
+							{/if}
 						</div>
 					</li>
 				{/each}

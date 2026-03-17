@@ -33,22 +33,22 @@ export const professional = [
 		when: 'Summer 2025',
 		logo: gwlLogo
 	},
-	{ title: 'Piano Tutor', org: null, when: '2023 - present', logo: mpsLogo }
+	{ title: 'Piano Tutor', org: 'Mississauga Piano School', when: '2023 - present', logo: mpsLogo }
 ];
 
 export const extracurriculars = [
 	{
-		title: 'Student Council VP',
-		desc: 'For student body of 1700+, managing events with over 400 attendees + over $25k+ in cash flow',
+		title: 'Student Council | VP',
+		desc: '',
 		logo: sacLogo
 	},
-	{ title: 'DECA', desc: '3x award winner', logo: decaLogo },
+	{ title: 'DECA | Competitor', desc: '3x award winner', logo: decaLogo },
 	{
-		title: 'Tuck Shop',
-		desc: 'Student-led lunch purchasing program, managing inventory across 30+ products + generated ~200% ROI for the school',
+		title: 'Tuck Shop | President',
+		desc: '',
 		logo: tuckshopLogo
 	},
-	{ title: 'KNX Senior Association', desc: 'English tutor for senior immigrants', logo: knxLogo }
+	{ title: 'KNX Senior Association | English Tutor', desc: '', logo: knxLogo }
 ];
 
 export const projects = [
@@ -63,7 +63,7 @@ export const projects = [
 	{
 		name: 'JF 26 Seniors',
 		description:
-			'Graduating class profile. A survey form to collect data about our g12 class to be visualized through chart.js, form collection through zod, auth using firebase, backend firestore.',
+			'Graduating class profile. A survey form to collect data about our g12 class to be visualized through chart.js, form + auth system using next.js and firebase/firestore',
 		tech: ['Next.js', 'Tailwind CSS', 'Firebase', 'motion.dev'],
 		repo: 'https://github.com/dzkchen/jf-26-seniors',
 		image: jfProfileImage,
@@ -81,7 +81,7 @@ export const projects = [
 	{
 		name: 'Ground Work',
 		description:
-			'Hack Canada Project 2026: A Blockchain solution for your FHSA. A decentralized application (dApp) designed to incentivize users to actively contribute to their First Home Savings Account (FHSA). By leveraging the speed and low fees of the Solana blockchain, users stake USDC in a shared pool alongside a group of peers.',
+			'Hack Canada Project 2026: A Blockchain solution for your FHSA. A decentralized application (dApp) designed to incentivize users to actively contribute to their (FHSA). By leveraging the speed and low fees of the Solana blockchain, users stake USDC in a shared pool alongside a group of others.',
 		tech: ['Firebase', 'Rust', 'Solana', 'Next.js', 'Plaid API'],
 		repo: 'https://github.com/dzkchen/groundwork',
 		image: groundworkImage,
