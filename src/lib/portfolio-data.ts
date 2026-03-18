@@ -12,6 +12,7 @@ import jfProfileImage from '$lib/assets/project_jf_profile.png';
 import sacImage from '$lib/assets/project_sac.png';
 import groundworkImage from '$lib/assets/groundwork_image.png';
 import portfolioImage from '$lib/assets/portfolio_image.png';
+import stockImage from '$lib/assets/stock_image.png';
 import resumePdf from '$lib/assets/David_Chen_resume.pdf';
 
 export { bgOne, bgTwo, bgThree };
@@ -94,5 +95,13 @@ export const projects = [
 		tech: ['SvelteKit', 'Svelte 5', 'Tailwind CSS'],
 		repo: 'https://github.com/dzkchen/portfolio',
 		image: portfolioImage
+	},
+	{
+		name: 'Stock Analysis Proof of Concept',
+		description:
+			'A proof of concept for a stock analysis tool. Using newsapi and scraping reddit articles fed into gemini api for sentiment analysis and then using yfinance to get stock data and display it in a chart.',
+		tech: ['Python', 'Pandas', 'newsapi', 'gemini-api', 'streamlit', 'yfinance'],
+		repo: 'https://github.com/dzkchen/stock-analyzer-proof-of-concept',
+		image: stockImage
 	}
 ];
