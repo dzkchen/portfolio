@@ -54,14 +54,6 @@ export const extracurriculars = [
 
 export const projects = [
 	{
-		name: 'PokePath TD Edit',
-		description:
-			'QOL improvements of a pokemon tower defense game.',
-		tech: ['Electron'],
-		repo: 'https://github.com/dzkchen/pokepath-td-edit',
-		image: pokepathImage
-	},
-	{
 		name: 'JF 26 Seniors',
 		description:
 			'Graduating class profile. A survey form to collect data about our g12 class to be visualized through chart.js, form + auth system using next.js and firebase/firestore',
